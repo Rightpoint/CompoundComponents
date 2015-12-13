@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Compound Components Example</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="phone_number">(%1$s) %2$s-%3$s</string>
+    <string name="city_state_zip">%1$s %2$s, %3$s</string>
+
+    <string name="title_activity_include_layout_example">Include Layout Example</string>
+    <string name="title_activity_fragment_example">Fragment Example Activity</string>
+
+    <string name="button_text_include_layout_example">Launch Include Example Activity</string>
+    <string name="button_text_fragment_layout_example">Launch Fragment Example Activity</string>
+    <string name="title_activity_merge_example">MergeExampleActivity</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ContactInfoView">
+        <attr name="nameBold" format="boolean" />
+        <attr name="hidePicture" format="boolean" />
+    </declare-styleable>
+</resources>
+
+
