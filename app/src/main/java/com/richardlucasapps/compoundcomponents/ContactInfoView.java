@@ -75,7 +75,7 @@ public class ContactInfoView extends LinearLayout {
 
         if (nameBold) {
             firstName.setTypeface(firstName.getTypeface(), Typeface.BOLD);
-            lastName.setTypeface(firstName.getTypeface(), Typeface.BOLD);
+            lastName.setTypeface(lastName.getTypeface(), Typeface.BOLD);
         }
         if (hidePicture) {
             picture.setVisibility(View.GONE);
