@@ -36,18 +36,21 @@ public class IncludeLayoutActivity extends AppCompatActivity {
                 R.drawable.mike, "Michael", "LeBarron", "2813308004", "Mike@LeBarron.com",
                 "50 Milk St.", "Boston", "MA", "02109");
 
-        //Get Views
+        //Find Views
         ImageView picture = (ImageView) findViewById(R.id.picture);
         TextView firstName = (TextView) findViewById(R.id.first_name);
+        //region Find the other Views
         TextView lastName = (TextView) findViewById(R.id.last_name);
         TextView phoneNumber = (TextView) findViewById(R.id.phone_number);
         TextView emailAddress = (TextView) findViewById(R.id.email_address);
         TextView homeAddress = (TextView) findViewById(R.id.home_address);
         TextView cityStateZip = (TextView) findViewById(R.id.city_state_zip);
+        //endregion
 
         //Populate Views
         picture.setImageResource(contactInfo.getPicture());
         firstName.setText(contactInfo.getFirstName());
+        //region Populate the other views
         lastName.setText(contactInfo.getLastName());
 
         String phoneNumberString = contactInfo.getPhoneNumber();
@@ -59,7 +62,7 @@ public class IncludeLayoutActivity extends AppCompatActivity {
 
         String cityStateZipFormatted = getString(R.string.city_state_zip, contactInfo.getHomeCity(), contactInfo.getHomeState(), contactInfo.getHomeZipCode());
         cityStateZip.setText(cityStateZipFormatted);
-
+        //endregion
     }
 
 }
