@@ -67,7 +67,6 @@ public class ContactInfoView extends LinearLayout {
         emailAddress = (TextView) findViewById(R.id.email_address);
         homeAddress = (TextView) findViewById(R.id.home_address);
         cityStateZip = (TextView) findViewById(R.id.city_state_zip);
-        
     }
 
     private void readArray(TypedArray arr) {
